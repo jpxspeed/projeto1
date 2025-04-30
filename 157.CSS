@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background: #0e0e2c;
+    color: #fff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  header {
+    background: #1a1a40;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #ff0080;
+    box-shadow: 0 0 10px #ff0080;
+  }
+  
+  header h1 {
+    font-size: 36px;
+    color: #54fa22;
+  }
+  
+  nav {
+    margin-top: 10px;
+  }
+  
+  nav a {
+    color: #ff00cc;
+    margin: 0 15px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+  }
+  
+  nav a:hover {
+    color: #00ffff;
+    text-shadow: 0 0 10px #00ffff;
+  }
+  
+  .hero, .produtos, .promocoes, .sobre, .contato, .carrinho {
+    padding: 60px 20px;
+    text-align: center;
+  }
+  
+  .hero h2, .promocoes h2, .sobre h2, .contato h2, .carrinho h2 {
+    color: #ffcc00;
+    font-size: 32px;
+    margin-bottom: 20px;
+  }
+  
+  .cta-button {
+    background: #ff0080;
+    padding: 15px 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 18px;
+    transition: 0.3s;
+  }
+  
+  .cta-button:hover {
+    background: #ffcc00;
+    color: black;
+    box-shadow: 0 0 15px #ffcc00;
+  }
+  
+  .produtos {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  .produto {
+    background-color: #2a0033;
+    padding: 20px;
+    border-radius: 10px;
+    width: 280px;
+    box-shadow: 0 0 15px #ff00cc;
+    transition: transform 0.3s;
+  }
+  
+  .produto:hover {
+    transform: scale(1.05);
+  }
+  
+  .produto img {
+    width: 100%;
+    border-radius: 5px;
+  }
+  
+  .produto h3 {
+    margin: 15px 0 10px;
+    color: #00ffff;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+  
+  form input, form textarea {
+    width: 300px;
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+  }
+  
+  form button {
+    background-color: #ff00cc;
+    color: white;
+    padding: 10px 25px;
+    border-radius: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  footer {
+    padding: 20px;
+    background-color: #000014;
+    text-align: center;
+    font-size: 16px;
+  }
+  

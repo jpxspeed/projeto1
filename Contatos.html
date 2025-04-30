@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contatos | Loja Gamer</title>
+    <link rel="stylesheet" href="contatos.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+          <h1>Virex Games</h1>
+        </div>
+        <nav>
+          <ul>
+            <li><a href="Casa.html">Início</a></li>
+            <li><a href="Produtos.html">Produtos</a></li>
+            <li><a href="Promocao.html">Promoções</a></li>
+            <li><a href="Contatos.html" class="active">Contatos</a></li>
+          </ul>
+        </nav>
+    </header>
+
+    <main class="contatos-page">
+      <h2>Entre em Contato Conosco</h2>
+      <p>Tem alguma dúvida ou sugestão? Preencha o formulário abaixo ou utilize nossos canais de atendimento:</p>
+
+      <div class="contact-info">
+        <div class="info-item">
+          <h3>Telefone</h3>
+          <p>+55 (11) 91234-5678</p>
+        </div>
+        <div class="info-item">
+          <h3>E-mail</h3>
+          <p>contato@lojagamer.com.br</p>
+        </div>
+        <div class="info-item">
+          <h3>Endereço</h3>
+          <p>Av. dos Games, 1000 - São Paulo, SP</p>
+        </div>
+      </div>
+
+      <form class="contact-form">
+        <label for="nome">Nome:</label>
+        <input type="text" id="nome" name="nome" placeholder="Seu nome" required>
+
+        <label for="email">E-mail:</label>
+        <input type="email" id="email" name="email" placeholder="seu@exemplo.com" required>
+
+        <label for="mensagem">Mensagem:</label>
+        <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+
+        <button type="submit">Enviar</button>
+      </form>
+    </main>
+
+    <footer>
+      <p>&copy; 2025 Loja Gamer. Todos os direitos reservados.</p>
+    </footer>
+</body>
+</html>
